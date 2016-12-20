@@ -41,10 +41,11 @@ module.exports = {
         exclude: /(node_modules)/,
       }, {
         loaders: [
-          'style-loader?sourceMap',
-          'css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]',
+          'style',
+          'css?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]',
+          'stylus',
         ],
-        test: /\.css$/,
+        test: /\.styl$/,
         exclude: /node_modules/,
       }, {
         test: /\.(png|jpg|svg|gif|otf|ttf|woff|eot)$/,

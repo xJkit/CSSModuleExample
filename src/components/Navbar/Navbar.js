@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router';
 // styles
-import styles from './Navbar.css';
+import styles from './Navbar.styl';
 
 const Navbar = () => (
   <div className={styles.root}>
