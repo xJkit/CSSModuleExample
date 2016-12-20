@@ -1,0 +1,28 @@
+.root {
+  width: 60px;
+  height: 90vh;
+  background-color: green;
+}
+
+.root ul {
+  list-style-type: none;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  -o-flex-direction: column;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.root li a {
+  color: white;
+  text-decoration: none;
+  background-color: cyan;
+  line-height: 30px;
+}
